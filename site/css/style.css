@@ -590,7 +590,7 @@ header h1 {
 }
 
 #slider1 > ul > li:nth-of-type(2) {
-  background: url(../images/banner2.jpg) no-repeat center;
+  background: url(../img/banner1.jpg) no-repeat center;
   background-size: cover;
 }
 
@@ -697,19 +697,6 @@ a.nice-link:hover:after {
   width: 100%;
 }
 /*___________________________________ SIGN ___________________________________ */
-#dex-sign {
-  width: 255px;
-  height: 84px;
-  position: absolute;
-  left: 33%;
-  top: 45%;
-  opacity: 0.7;
-  background: url(http://www.drygiel.com/projects/sign/frames-255-white.png) 0 0 no-repeat;
-}
-#dex-sign:hover {
-  opacity: 1;
-  -webkit-filter: invert(30%) brightness(80%) sepia(100%) contrast(110%) saturate(953%) hue-rotate(45deg);
-}
 @-webkit-keyframes sign-anim {
   to {
     background-position: 0 -7140px;
